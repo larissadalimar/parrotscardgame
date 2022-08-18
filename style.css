@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@700&display=swap');
+
+body {
+    background-color: #EEF9BF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo h1{
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    color: #75B79E;
+}
+
+.titulo, .jogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cards{
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 117px;
+    height: 146px;
+    background-color: #A7E9AF;
+    border: 1px solid #99CEA8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-right: 34px;
+    margin-top: 34px;
+}
+
+@media (max-width:400px) {
+  
+
+    .cards{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 35%;
+    }
+
+    .card{
+        margin-right: 0px;
+    }
+
+    .titulo h1{
+        font-size: 36px;
+    }
+}
