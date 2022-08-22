@@ -10,6 +10,7 @@ body {
     font-size: 56px;
     text-align: center;
     color: #75B79E;
+    margin-bottom: 13px;
 }
 
 .titulo, .jogo {
@@ -35,10 +36,51 @@ body {
     box-sizing: border-box;
     margin-right: 34px;
     margin-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 1s;
 }
 
-@media (max-width:400px) {
-  
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.vira-card{
+    transform: rotateY(180deg);
+}
+
+/* .bobrossparrot {
+    background-image: url('./imagens/bobrossparrot.gif');
+}
+
+.explodyparrot{
+    background-image: url('./imagens/explodyparrot.gif');
+}
+
+.fiestaparrot{
+    background-image: url('./imagens/fiestaparrot.gif');
+}
+
+.metalparrot{
+    background-image: url('./imagens/metalparrot.gif');
+}
+
+.revertitparrot {
+    background-image: url('./imagens/revertitparrot.gif');
+}
+
+.triplesparrot{
+    background-image: url('./imagens/triplesparrot.gif');
+}
+
+.unicornparrot{
+    background-image: url('./imagens/unicornparrot.gif');
+} */
+
+@media (max-width:500px) {
 
     .cards{
         display: block;
